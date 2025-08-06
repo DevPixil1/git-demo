@@ -12,6 +12,9 @@ git add -A
 git reset --hard
 git status
 clear
+git branch
+git checkout -b <new-branch>
+git checkout <branch-name>
 ```
 
 ## Common Workflows
@@ -26,6 +29,13 @@ git commit -m 'Msg'
 ## Git Workflow
 
 Branches:
-- Master
-- Dev
-- Feature Branch
+- master
+    - this is live!
+- dev
+    - Merge features into here for all teammates, and push to github
+- feature-branch
+    - Do the major dev here
+
+## Contributors
+
+- Jose Vazquez
